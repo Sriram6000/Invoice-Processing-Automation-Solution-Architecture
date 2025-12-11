@@ -165,7 +165,6 @@ Assumptions: 5,000 invoices/month (average).
 
 ***
 
-**For questions or feedback, please contact:**  
-Sriram Sivakumar
+**Please drop in your comments for questions or feedback.**
 
 ***
