@@ -1,9 +1,5 @@
 # Invoice Processing Automation – Solution Architecture
 
-
-**Description:**
-This repository outlines an end-to-end automation approach for supplier invoice processing, aligned with the Power Platform Well-Architected Framework. The goal is to address business pain points, map the solution to best practices, and consider aspects like scalability, security, operational excellence, and risk management.
-
 > <sub><i>
 > Disclaimer: The company name, business scenario, process descriptions, invoice volumes, FTE estimates, cost metrics, and all operational details used in this repository are entirely fictional. They are intended solely to illustrate a realistic enterprise automation use case. Any resemblance to real organizations is purely coincidental. These examples reflect common patterns observed across global finance operations but do not represent any specific company.
 > </i></sub>
