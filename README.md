@@ -11,7 +11,7 @@ This repository documents the **business problem**, **solution approaches**, and
 
 ## Table of Contents
 1. [Context](#context)
-2. [Business Problem](url)
+2. [Business Problem](01-business-problem/01-problem-statement.md)
 3. [Solution Approach](url)
 4. [Architectural Patterns](url)
 5. [Architecture Diagram](#architecture-diagram)
