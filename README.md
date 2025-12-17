@@ -70,3 +70,8 @@ Compare **manual vs automated** costs and show **payback period**.
 
 ## License
 This project uses the MIT License, which allows anyone to use, copy, and share this work freely.
+
+---
+
+**Disclaimer:** 
+*The company name, business scenario, process descriptions, invoice volumes, FTE estimates, cost metrics, and all operational details used in this repository are entirely fictional. They are intended solely to illustrate a realistic enterprise automation use case. Any resemblance to real organizations is purely coincidental. These examples reflect common patterns observed across global finance operations but do not represent any specific company.*
