@@ -11,7 +11,7 @@ This repository documents the **business problem**, **solution approaches**, and
 
 ## Table of Contents
 1. [Context](#context)
-2. [Business Problem](01-business-problem/01-problem-statement.md)
+2. [Business Problem](#business-problem)
 3. [Solution Approach](url)
 4. [Architectural Patterns](url)
 5. [Architecture Diagram](#architecture-diagram)
@@ -22,13 +22,19 @@ This repository documents the **business problem**, **solution approaches**, and
 10. [License](#license)
 
 ## Context
-A global FMCG enterprise operating across **20 country** with decentralized finance opertaions. Accounts Payable team (AP) process millions of vendor invoices manually. This repository focuses on designing scalable, automated solutions for Accounts Payable (AP) invoice processing using Microsoft Power Platform and AI Builder.
+
+A global FMCG enterprise operating across **20 country** with decentralized finance opertaions. Accounts Payable team (AP) process millions of vendor invoices manually. 
+
+This repository focuses on designing scalable, automated solutions for Accounts Payable (AP) invoice processing using Microsoft Power Platform and AI Builder.
 
 ## Business Problem
+
 Manual invoice processing drives rising costs, frequent SLA breaches, high error rates, and fragmented audit trails. With invoice volumes growing rapidly, these challenges scale linearly, creating significant compliance and operational risks.
-Detailed pain points, key assumptions, and impact analysis are documented in `01-business-problem/problem-statement.md`.
+
+Detailed pain points, key assumptions, and impact analysis are documented in [01-business-problem/01-problem-statement.md](01-business-problem/01-problem-statement.md).
 
 ## Solution Approach
+
 - Folder - `02-solution-approach/overview.md`
 - Global vision with **pilot in one country**.
 - Three architectural patterns using **Power Platform + AI Builder**:
@@ -40,6 +46,7 @@ Detailed pain points, key assumptions, and impact analysis are documented in `01
       - Folder - `02-solution-approach/`
    
 ## Architecture Diagram
+
 A high level view of the solution that is proposed.
 Place holder for daigram
 
@@ -55,12 +62,15 @@ Compare **manual vs automated** costs and show **payback period**.
   -Folder - `03-roi-analysis/manual-vs-automated.md`
 
 ## Data
+
  - All assumptions in `04-data\`
 
 ## Assets
+
  - Diagrams and charts in `05-assets\`
 
 ## Contribution Guidelines
+
 - Fork the repo and create a branch (`feature/<name>`).
 - Add or update Markdown files in the relevant folder.
 - Include diagrams- Include diagrams in `/assets/diagrams`.
@@ -69,6 +79,7 @@ Compare **manual vs automated** costs and show **payback period**.
   - Rationale (business/technical)
 
 ## License
+
 This project uses the MIT License, which allows anyone to use, copy, and share this work freely.
 
 ---
