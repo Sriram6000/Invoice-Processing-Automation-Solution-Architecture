@@ -1,6 +1,3 @@
-# Business Problem
-
-
 ## Problem Statement
 The Accounts Payable (AP) team at GobalCrop Ltd. manages end‑to‑end invoice processing for a large, diversified supplier base.
 
