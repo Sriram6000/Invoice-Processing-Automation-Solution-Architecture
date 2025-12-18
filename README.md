@@ -12,8 +12,8 @@ This repository documents the **business problem**, **solution approaches**, and
 ## Table of Contents
 1. [Context](#context)
 2. [Business Problem](#business-problem)
-3. [Solution Approach](url)
-4. [Architectural Patterns](url)
+3. [Solution Approach](#solution-approach)
+4. [Architectural Patterns](#architectural-patterns)
 5. [Architecture Diagram](#architecture-diagram)
 6. [ROI Analysis](url)
 7. [Data](url)
@@ -37,12 +37,14 @@ Detailed pain points, key assumptions, and impact analysis are documented in [01
 
 Enterprise invoice automation is rarely a one-size-fits-all solution. Different organizations — and even different business units within the same organization — have varying requirements. To support this diversity, this repository documents **three alternative architectural patterns** for processing invoice PDFs using Microsoft Power Platform and AI Builder. Each approach solves the same business problem but optimizes for different **cost, performance, scalability and operational constraints**
 
+Details of apporaches / patterns are documented in [02-solution-approach](02-solution-approach)
+
+## Architectural Patterns
+
 Three architectural patterns using **Power Platform + AI Builder**:
-  - **Pattern 3**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
+  - **[Pattern 3](/02-solution-approach/architecture-patterns/pattern-3-high-volume.md)**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
   - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
   - **Pattern 1**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
-
-Details of apporaches / patterns are documented in [02-solution-approach](02-solution-approach)   
 
 ## Architecture Diagram
 
