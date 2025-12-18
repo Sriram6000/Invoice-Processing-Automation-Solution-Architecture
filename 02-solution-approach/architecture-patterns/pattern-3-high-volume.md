@@ -1,4 +1,4 @@
-## Pattern 3
+## Pattern 3 - High Volume / Scalable & Resilient
 
 The solution pilots invoice processing automation in one region, with plans to scale globally.
 
