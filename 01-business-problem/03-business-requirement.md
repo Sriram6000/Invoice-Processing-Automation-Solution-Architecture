@@ -1,14 +1,19 @@
-# **Why This Matters and Must Be Addressed**
+# Business Requirements
 
-- **Supplier experience risk:** Errors and delays affect supply continuity and pricing.
-- **Compliance & reputational exposure:** Multi-jurisdictional penalties and audits.
-- **Strategic misalignment:** Finance should drive insights and working capital—not manual data entry.
-- **Weak Audit Trail:** Manual processes create fragmented or incomplete audit logs, increasing compliance risk and making audits time-consuming and costly.
+## Functional Requirements
+- Invoice ingestion (PDF, email, portal)
+- Extraction & validation (PO/GRN/tax)
+- Exception handling & approvals
+- ERP posting & reconciliation
 
-# **Business Driver for Automation**
-- **Scalability:** Decouple cost from volume growth; absorb increases without linear FTE adds.
-- **Accuracy:** Reduce error rate sharply for fewer disputes and faster cycle times.
-- **SLA Reliability:** Minimize breaches and penalty exposure.
-- **Global Standardization:** Central controls with local compliance.
-- **Measurable ROI:** Tangible cost-out, quality improvements, and vendor experience gains.
-- **Enhanced Auditability and Compliance:** Ensure a complete, tamper-proof audit trail for every invoice action, meeting regulatory requirements. 
+## Non-Functional Requirements (NFRs)
+- **Auditability**: Immutable, end-to-end audit trail (capture → validation → exception → approval → posting)
+- SLA: On-time payment ≥ 95% post-automation; cycle-time targets
+- Accuracy: Error rate ≤ 0.5% (target)
+- Scalability: 20–30% YoY volume growth
+- Support & observability: L2/L3 ops, dashboards, alerting
+- Security & compliance: country-specific statutory needs
+
+## Dependencies & Assumptions
+- Microsoft Power Platform + AI Builder as core stack
+- Pilot first, then phased global rollout
