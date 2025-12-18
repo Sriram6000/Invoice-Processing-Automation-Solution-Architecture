@@ -35,16 +35,15 @@ Detailed pain points, key assumptions, and impact analysis are documented in [01
 
 ## Solution Approach
 
-- Folder - `02-solution-approach/overview.md`
-- Global vision with **pilot in one country**.
-- Three architectural patterns using **Power Platform + AI Builder**:
-  - **Pattern 1**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*
-      - Folder - `02-solution-approach/`
-  - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
-      - Folder - `02-solution-approach/`    
+Enterprise invoice automation is rarely a one-size-fits-all solution. Different organizations — and even different business units within the same organization — have varying requirements. To support this diversity, this repository documents **three alternative architectural patterns** for processing invoice PDFs using Microsoft Power Platform and AI Builder. Each approach solves the same business problem but optimizes for different **cost, performance, scalability and operational constraints**
+
+Three architectural patterns using **Power Platform + AI Builder**:
   - **Pattern 3**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
-      - Folder - `02-solution-approach/`
-   
+  - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
+  - **Pattern 1**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
+
+Details of apporaches / patterns are documented in [02-solution-approach](02-solution-approach)   
+
 ## Architecture Diagram
 
 A high level view of the solution that is proposed.
