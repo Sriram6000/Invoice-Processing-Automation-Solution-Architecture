@@ -1,4 +1,4 @@
-# 01 Business Problem
+# Business Problem
 
 This section explains the global AP business problem for a 20-country FMCG enterprise, the projected impact if manual processing continues, and the business requirements for automation.
 
