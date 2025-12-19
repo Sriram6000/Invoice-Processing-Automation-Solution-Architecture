@@ -24,7 +24,7 @@ The solution pilots invoice processing automation in **one region**, with plans 
 ## Architecture Diagram
 
 *End-to-end invoice automation leveraging Microsoft Power Platform and Azure services.*
-<img src='https://github.com/Sriram6000/SA1-Invoice-Processing-Automation-Solution-Architecture/blob/main/05-assets/Invoice%20Processing%20Solution%20Archeitecture-High%20Volume.png'/>
+<img src='https://github.com/Sriram6000/SA1-Invoice-Processing-Automation-Solution-Architecture/blob/main/05-assets/Invoice%20Processing%20Solution%20Archeitecture-P1.png'/>
 
 
 ## Detailed Solution Design
