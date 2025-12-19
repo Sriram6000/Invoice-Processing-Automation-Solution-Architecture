@@ -12,11 +12,11 @@ To demonstrate architectural flexibility and trade-off analysis, I have also exp
 - Comparison Table (Trade-offs)
 
 ## Navigation Guide
-- Start with **[ High Volume - Azure Blob & Functions Architecture](pattern-1-high-volume.md)** for detailed design and diagrams.
-- Review **[Mid Volume - Dataverse-Centric Architecture](pattern-2-mid-volume.md) and [Low Volume - SharePoint-Based Architecture](pattern-3-low-volume.md)** for alternate approaches.
+- Start with **[ High Volume - Azure Blob & Functions Architecture](p1-high-volume-azure-blob-functions-architecture.md)** for detailed design and diagrams.
+- Review **[Mid Volume - Dataverse-Centric Architecture](p2-mid-volume-dataverse-centric-architecture.md) and [Low Volume - SharePoint-Based Architecture](p3-low-volume-sharepoint-based-architecture.md)** for alternate approaches.
 - Use the **[Comparison Table](comparison-table.md)** to understand trade-offs and select the right pattern for your scenario.
 
 ---
 
-|Back to : [Solution Approach](/02-solution-approach) | Next : [High Volume - Azure Blob & Functions Architecture](pattern-1-high-volume.md)|
+|Back to : [Solution Approach](/02-solution-approach) | Next : [High Volume - Azure Blob & Functions Architecture](p1-high-volume-azure-blob-functions-architecture.md)|
 |-|-|
