@@ -75,3 +75,8 @@ Different volumes, cost constraints, and operating models require tailored desig
 - Open **Patterns** to examine designs tailored to your volume and constraints.
 - Refer to the **Comparison Table** for decision‑making across cost, performance, and scalability.
 
+---
+
+|Back to : [Business Problem](01-business-problem.md) | Next : [Architecture Patterns](architecture-patterns)|
+|-|-|
+
