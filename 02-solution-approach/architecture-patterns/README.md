@@ -6,8 +6,8 @@ To demonstrate architectural flexibility and trade-off analysis, I have also exp
 
 ## Contents
 
-- Pattern 1: High Volume - Azure Blob & Functions Architecture
-- Pattern 2: Mid Volume - Dataverse-Centric Architecture
+- Pattern 1 : High Volume - Azure Blob & Functions Architecture
+- Pattern 2 : Mid Volume - Dataverse-Centric Architecture
 - Pattern 3 : Low Volume - SharePoint-Based Architecture
 - Comparison Table (Trade-offs)
 
