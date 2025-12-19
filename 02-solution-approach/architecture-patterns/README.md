@@ -22,4 +22,5 @@ To demonstrate architectural flexibility and trade-off analysis, I have also exp
 
 ---
 
-
+|Back to : [Solution Approach](/02-solution-approach) | Next : [Pattern 1](pattern-1-high-volume.md)|
+|-|-|
