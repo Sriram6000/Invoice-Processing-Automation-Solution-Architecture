@@ -21,7 +21,10 @@ Use this table to understand **which pattern best fits your scenario** based on 
 - **Pattern 1** offers maximum scalability but at higher cost and complexity.
 - **Pattern 3** minimizes cost but sacrifices scalability and advanced features.
 - **Pattern 2** balances cost and performance for mid-scale operations.
-  
+
 ## Notes
 - All patterns use **Power Platform as the core** (Power Automate flows, Power Apps, PAD).
 - Differentiators are primarily **storage strategy**, **scalability**, and **cost optimization**.
+
+> [!NOTE]
+> **Pattern 1 is recommended for Accounts Payable (AP) team at GobalCrop Ltd with high invoice volumes and strict SLA/compliance requirements.**
