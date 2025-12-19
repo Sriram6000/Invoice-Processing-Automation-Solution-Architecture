@@ -42,9 +42,10 @@ Details of these approaches are documented in [02-solution-approach](02-solution
 
 ### Architectural Patterns
 
-  - **Pattern 3**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
+  - **Pattern 1**: High Volume / Scalable & Resilient *(detailed design and diagrams)*
+  **Additional Patterns**  
   - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
-  - **Pattern 1**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
+  - **Pattern 3**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
 
 ## Architecture Diagram
 
