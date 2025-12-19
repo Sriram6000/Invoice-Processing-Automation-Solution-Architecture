@@ -49,19 +49,49 @@ The solution pilots invoice processing automation in **one region**, with plans 
 
 ## Cost & Licensing Analysis
 
-Assumptions: 5,000 invoices/month (average).
+### **Scope**: 
+- Pilot implementation for one region (Country A)
+- Average annual invoice volume: 240,000 invoices / year
+- Average monthly invoice volume: 20,000 invoices / month
+- Processing assumption: 1 page per invoice (prefiltered before AI)
+- Execution model (best fit): 3 customer-managed VMs with PAD
 
-| Component                         | Monthly Cost (USD)                               | Notes                                |
-| --------------------------------- | ------------------------------------------------ | ------------------------------------ |
-| Azure Blob Storage                | $0.09                                            | 4.88 GB/month                        |
-| Azure Key Vault                   | $0.015                                           | 5,000 accesses/month                 |
-| Copilot Credits                   | PAYG Meter – $0.08/page (\~$400 for 5,000 pages) | Based on page volume/credits         |
-| Dataverse                         | Minimal (pilot)                                  | Default capacity covers pilot        |
-| VMs / Hosted Machine              | $40–$80 / VM or $215 / bot                       |                                      |
-| Azure Function                    | Consumption plan, free grants                    | 1M executions and 400K GB-s free/mo  |
-| Power Automate Premium License    | $15 / user                                       |                                      |
-| Power Automate Unattended License | $150 / bot                                       | Not required if using Hosted Machine |
-| Power Apps Premium License        | $15 / user                                       |                                      |
+**Assumptions**
+- Invoice PDFs are prefiltered so that only invoice-relevant pages are sent to AI
+- AI costs are page-based, not invoice-based
+- PDFs are stored in Azure Blob Storage; Dataverse stores metadata only
+- 3 PAD bots are used to achieve parallelism and resilience
+- Power Automate Process licenses are required per bot
+- Power Apps Premium cost shown is for 1 user only and scales linearly with number of users
+
+| Component                                  |           Monthly Cost (USD) |             Annual Cost (USD) | Rationale                                           |
+| ------------------------------------------ | ---------------------------: | ----------------------------: | --------------------------------------------------- |
+| Azure Blob Storage                         |                       ~$0.30 |                        ~$3.60 | PDF storage (Hot tier), negligible footprint        |
+| Azure Key Vault                            |                       ~$0.06 |                        ~$0.72 | Secure storage of credentials and secrets           |
+| **Copilot / AI Credits**                   |                  **~$1,600** |                  **~$19,200** | 20,000 pages/month × ~$0.08 per page                |
+| Dataverse                                  |                     Included |                      Included | Used only for invoice metadata and logs             |
+| Azure Functions                            |                          ~$0 |                           ~$0 | Event-driven orchestration within free grant limits |
+| **Power Automate Process Licenses (3×)**   |                     **$450** |                    **$5,400** | Required per unattended PAD bot                     |
+| **Azure Virtual Machines (3×)**            |              **$120 – $240** |           **$1,440 – $2,880** | Customer-managed VMs for PAD execution              |
+| Power Automate Premium (1 automation user) |                          $15 |                          $180 | Service account for cloud flow orchestration        |
+| Power Apps Premium (1 app user)            |                          $15 |                          $180 | Per-user license; **multiplies by app users**       |
+| **Estimated Total (Pilot)**                | **~$2,200 – $2,320 / month** | **~$26,400 – $27,850 / year** |                       |
+
+**Execution Model Consideration**
+| Option                                  | Included                               | Monthly Cost (3 bots) | Notes                                              |
+| --------------------------------------- | -------------------------------------- | --------------------: | -------------------------------------------------- |
+| **Hosted Machine (RPA Hosted license)** | Process license + Microsoft-managed VM |                 ~$645 | Lower ops overhead |
+| **Customer-managed VMs (Chosen)**       | Process license + Azure VM (separate)  |          ~$570 – $690 | Better throughput control and cost optimisation    |
+
+**Disclaimer**
+All costs presented above are indicative estimates only, based on publicly available pricing and architectural assumptions at the time of design.
+Actual costs may vary depending on:
+  - Final invoice volume and page count
+  - AI model pricing changes
+  - Azure region and VM sizing
+  - Licensing agreements and enterprise discounts
+
+This analysis is intended solely for solution design and comparative evaluation during the pilot phase, and should not be treated as a final commercial quote.
 
 ## Pros & Cons
 
