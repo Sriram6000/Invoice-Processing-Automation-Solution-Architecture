@@ -1,17 +1,12 @@
-
 # Solution Approach Overview
 
 ## Purpose
 This section outlines the overall strategy for **automating invoice processing** using **Microsoft Power Platform** and **AI Builder**. It describes the **core technical stack**, the **opportunities** we aim to address, our **global vision**, **pilot positioning and strategy**, and introduces the **architectural patterns** optimized for different volumes and operational needs.
 
----
-
 ## Core Technical Stack
 - Microsoft Power Platform
 - AI Builder
 - Azure Services
-
----
 
 ## Opportunities Addressed
 - **Cost Reduction & Scale**: Decouple workload growth from linear headcount increases; reduce manual touch by ~85%.
