@@ -129,4 +129,8 @@ This analysis is intended solely for solution design and comparative evaluation 
 *   **Processing Log:** LogId, Entity, EntityId, EventType, Timestamp, Message, Severity, CorrelationId
 *   **Posting\_Result:** InvoiceId, PostingNumber, PostedAt, ErpCompany, ErrorsJson
 
+---
+
+|Back to : [Solution Approach](/02-solution-approach) | Next : [Mid Volume - Dataverse-Centric Architecture](p2-mid-volume-dataverse-centric-architecture.md)|
+|-|-|
 
