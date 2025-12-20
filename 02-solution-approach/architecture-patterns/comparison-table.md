@@ -28,3 +28,9 @@ Use this table to understand **which pattern best fits your scenario** based on 
 
 > [!NOTE]
 > **Pattern 1 is recommended for Accounts Payable (AP) team at GobalCrop Ltd with high invoice volumes and strict SLA/compliance requirements.**
+
+---
+
+|Previous : [Low Volume - SharePoint-Based Architecture](p3-low-volume-sharepoint-based-architecture.md) | Next : [ROI Analysis](03-roi-analysis/README.md)|
+|-|-|
+
