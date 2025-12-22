@@ -13,7 +13,7 @@ This repository documents the **business problem**, **solution approaches**, and
 1. [Context](#context)
 2. [Business Problem](#business-problem)
 3. [Solution Approach](#solution-approach)
-4. [Architecture Diagram](#architecture-diagram)
+4. [High-Level Workflow](#high-level-workflow)
 5. [ROI Analysis](url)
 6. [Data](url)
 7. [Assets](url)
@@ -46,12 +46,14 @@ Details of these approaches are documented in [02-solution-approach](02-solution
   - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
   - **Pattern 3**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
 
-## Architecture Diagram
+## High-Level Workflow
 
 A high level view of the solution that is proposed.
 Place holder for daigram
 
 Invoice PDF → AI Builder (OCR) → Validation → Exception Handling → Approval → ERP Posting → Audit Log
+
+his diagram represents the high-level process flow for invoice automation. Detailed architectural patterns and technical diagrams are documented in the Solution Approach folder.
 
 ## ROI Analysis
 
