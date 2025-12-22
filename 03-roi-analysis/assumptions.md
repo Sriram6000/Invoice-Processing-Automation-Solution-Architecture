@@ -1,7 +1,7 @@
 # Assumptions
 
 ## Scope & Currency
-- Scope: Global FMCG AP operations across **20 countries**.
+- Scope: Accounts Payable operations across **20 countries**.
 - Currency: **USD** for all calculations.
 
 ## Operational Assumptions
@@ -13,7 +13,7 @@
 - Delayed payments (SLA breaches): **20%** of invoices (late at invoice level)
 
 ## Financial Assumptions
-- Fully loaded AP FTE (blended): **$40,000/year**
+- Fully loaded Accounts Payable FTE (blended): **$40,000/year**
 - (No data as of now) QC/Specialist FTE: **$XX,000/year**
 - (No data as of now) Overhead on labor: **+25%**
 - (No data as of now) SLA penalties: **$X per late invoice** or **$Y per breach event**
@@ -29,4 +29,5 @@
 
 
 > **Note:** Update these values as you gather more accurate data from Finance, Procurement, and platform licensing.
+
 
