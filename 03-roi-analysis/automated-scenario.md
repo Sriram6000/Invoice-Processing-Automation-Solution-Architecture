@@ -16,7 +16,7 @@ Support Cost = 6 × $40,000 = $240,000
 Total Auto Cost (Yr 1) = Residual Labor + License + Infra + Support + Capex
 Total Auto Cost (Yr 2+) = Residual Labor + License + Infra + Support
 
-## 📊 Year-by-Year Snapshot
+## Year-by-Year Snapshot
 | Period           | Annual Invoices | Residual FTE (calc) | Errors (# & %)    | Delayed Payments (# & %) | Residual Labor | License  | Infra  | Support | Capex (Y1) | **Total Auto Cost** |
 |------------------|----------------:|--------------------:|------------------:|--------------------------:|---------------:|---------:|-------:|--------:|-----------:|--------------------:|
 | Last Year        | 3,840,000       | 34.3               | 19,200 (0.5%)     | 192,000 (5%)              | $1,371,429     | $115,200 | $150k | $240k  | $0         | **$1,876,629**      |
