@@ -2,6 +2,11 @@
 
 Establish the **current run‑rate** of manual AP operations to quantify the “cost of doing nothing.”
 
+## Key Formulas
+FTE_manual = (Invoices × 6 / 60) / 1,680 = Invoices / 16,800
+Manual Cost (Direct Labor) = FTE_manual × $40,000
+Errors = Invoices × 2.5%
+Delayed Payments (Late) = Invoices × 20%
 
 Year-by-Year Snapshot
 | Period           | Annual Invoices | FTE (calc) | Errors (# & %)   | Delayed Payments (# & %) | **Direct Labor Cost (USD)** |
