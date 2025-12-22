@@ -1,6 +1,6 @@
 # Cost of Baseline — Manual Processing
 
-Establish the **current run‑rate** of manual AP operations to quantify the “cost of doing nothing.”
+The purpose of this section is to establish the **current run‑rate** of manual Account Payable's operations to quantify the "cost of doing nothing".
 
 ## Key Formulas
 FTE_manual = (Invoices × 6 / 60) / 1,680 = Invoices / 16,800
@@ -8,7 +8,8 @@ Manual Cost (Direct Labor) = FTE_manual × $40,000
 Errors = Invoices × 2.5%
 Delayed Payments (Late) = Invoices × 20%
 
-Year-by-Year Snapshot
+## Year-by-Year Snapshot
+
 | Period           | Annual Invoices | FTE (calc) | Errors (# & %)   | Delayed Payments (# & %) | **Direct Labor Cost (USD)** |
 |------------------|----------------:|-----------:|------------------:|--------------------------:|----------------------------:|
 | Last Year        | 3,840,000       | 229        | 96,000 (2.5%)     | 768,000 (20%)             | **$9,142,857**              |
