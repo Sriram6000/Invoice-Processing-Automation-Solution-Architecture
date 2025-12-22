@@ -13,7 +13,7 @@ It follows a structured path: **Assumptions → Manual Baseline → Automated Sc
 - [Savings & ROI](./savings-and-roi.md)
 - [Sensitivity Cases](./sensitivity-cases.md)
 
-## 🔎 How to Read This
+## How to Read This
 1. Start with **Assumptions** (operational & financial drivers).
 2. Review **Manual Baseline** to understand the “cost of doing nothing.”
 3. See **Automated Scenario (Pattern 1)** for the target-state cost model.
