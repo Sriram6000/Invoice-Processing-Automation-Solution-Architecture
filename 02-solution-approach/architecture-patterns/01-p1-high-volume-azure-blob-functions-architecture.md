@@ -131,6 +131,6 @@ This analysis is intended solely for solution design and comparative evaluation 
 
 ---
 
-|Back to : [Solution Approach](/02-solution-approach) | Next : [Mid Volume - Dataverse-Centric Architecture](p2-mid-volume-dataverse-centric-architecture.md)|
+|Back to : [Solution Approach](/02-solution-approach) | Next : [Mid Volume - Dataverse-Centric Architecture](02-p2-mid-volume-dataverse-centric-architecture.md)|
 |-|-|
 
