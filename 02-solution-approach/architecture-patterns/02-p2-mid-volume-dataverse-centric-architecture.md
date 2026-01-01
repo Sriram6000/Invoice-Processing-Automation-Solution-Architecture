@@ -14,7 +14,6 @@ This pattern is designed for **mid‑volume invoice processing** where you want 
 > Dataverse is excellent for **metadata & governance**. It is **not** economical for **binaries** at mid volume. Keep all documents in SharePoint; keep Dataverse lean.
 
 ## **Architecture Diagram**
-*(Use your repo diagram)*  
 <img src='https://github.com/Sriram6000/SA1-Invoice-Processing-Automation-Solution-Architecture/blob/main/05-assets/daigrams/Dataverse-Centric Architecture.png'/>
 
 ## **Detailed Solution Design**
