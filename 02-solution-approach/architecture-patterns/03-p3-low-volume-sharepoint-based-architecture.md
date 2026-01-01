@@ -21,7 +21,7 @@ This pattern is intended for organizations seeking a quick, cost-effective solut
 ## **Cost & Licensing Analysis**
 
 ### **Scope**
-- Low-volume invoice processing (500 invoices per month).
+- Low-volume invoice processing (200 invoices per month).
 - Microsoft 365 ecosystem with minimal Azure components.
 
 ### **Assumptions**
