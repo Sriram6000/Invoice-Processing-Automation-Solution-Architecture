@@ -40,11 +40,11 @@ To support this diversity, this repository documents **three alternative archite
 Details of these approaches are documented in [02-solution-approach](02-solution-approach)
 
 ### Architectural Patterns
-  - **Pattern 1**: High Volume / Scalable & Resilient *(detailed design and diagrams)*    
+  - **Pattern 1**: High Volume / Scalable & Resilient    
   
   Additional Patterns
-  - **Pattern 2**: Mid Volume / Balanced *(planned, placeholder for future content)*
-  - **Pattern 3**: Low Volume / Cost-Optimized *(planned, placeholder for future content)*  
+  - **Pattern 2**: Mid Volume / Balanced
+  - **Pattern 3**: Low Volume / Cost-Optimized
 
 ## High-Level Workflow
 
@@ -64,17 +64,17 @@ Details are documented in [ROI Analysis](03-roi-analysis/README.md)
 
 ## Data
 
- - All assumptions in `04-data\`
+ - Datasets required for solution design and architecture are stoted in [Data](/04-data)
 
 ## Assets
 
- - Diagrams and charts in `05-assets\`
+ - Static resources used for this documentation are stored in [Assets](/05-assets)
 
 ## Contribution Guidelines
 
 - Fork the repo and create a branch (`feature/<name>`).
 - Add or update Markdown files in the relevant folder.
-- Include diagrams- Include diagrams in `/assets/diagrams`.
+- Include diagrams- Include diagrams in `/05-assets/diagrams`.
 - Submit a pull request with:
   - Summary of changes
   - Rationale (business/technical)
