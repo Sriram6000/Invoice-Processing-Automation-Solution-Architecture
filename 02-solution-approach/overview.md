@@ -39,28 +39,28 @@ We will **start with one country** (pilot) to:
 ## Architectural Patterns
 
 - **Pattern 1: High Volume - Azure Blob & Functions Architecture**   
-  - Designed for global operations with millions of invoices per year; focuses on scalability, resilience, and performance.
-  - Focuses on the current business problem
-  - Details are documented in [pattern-1-high-volume](architecture-patterns/pattern-1-high-volume.md)
+  - Designed for global operations with >500K invoices per year; focuses on scalability, resilience, and performance.
+  - Focuses on addressing the current business problem.
+  - Details are documented in [pattern-1-high-volume](architecture-patterns/01-p1-high-volume-azure-blob-functions-architecture.md)
 
 Different volumes, cost constraints, and operating models require tailored designs. I have explored couple of additional solution architectural patterns bearing these needs:
 
-- **Pattern 2: Mid Volume - Dataverse-Centric Architecture** *(planned)*  
-  - Balanced design for reliability and cost; modular validations and exception queues; suitable for ~100k–1M invoices/year.
-  - Details are documented in [pattern-2-mid-volume](architecture-patterns/pattern-2-mid-volume.md)
+- **Pattern 2: Mid Volume - Dataverse-Centric Architecture**
+  - Balanced design for reliability and cost; modular validations and exception queues; suitable for <500K invoices/year.
+  - Details are documented in [pattern-2-mid-volume](architecture-patterns/02-p2-mid-volume-dataverse-centric-architecture.md)
   
-- **Pattern 3: Low Volume - SharePoint-Based Architecture* *(planned)*  
-  - Minimal infrastructure footprint, simplified routing, pragmatic storage, cost-optimized; suitable for <100k invoices/year.
-  - Details are documented in [pattern-3-low-volume](architecture-patterns/pattern-3-low-volume.md)
+- **Pattern 3: Low Volume - SharePoint-Based Architecture**
+  - Minimal infrastructure footprint, simplified routing, pragmatic storage, cost-optimized; suitable for <2k invoices/year.
+  - Details are documented in [pattern-3-low-volume](architecture-patterns/03-p3-low-volume-sharepoint-based-architecture.md)
 
 - **Comparison Table (Trade-offs)**  
   - Side-by-side view of cost, throughput, SLA reliability, ops complexity, and scalability.
-  - Details are documented in [comparison-table](./architecture-patterns/comparison-table.md)
+  - Details are documented in [comparison-table](./architecture-patterns/04-comparison-table.md)
 
 ## Navigation Guide
 - Read this **Overview** to understand the direction, stack, and rollout plan.
 - Open **[Architecure Patterns](./architecture-patterns/)** to examine designs tailored to your volume and constraints.
-- Refer to the **[Comparison Table](./architecture-patterns/comparison-table.md)** for decision‑making across cost, performance, and scalability.
+- Refer to the **[Comparison Table](./architecture-patterns/04-comparison-table.md)** for decision‑making across cost, performance, and scalability.
 
 ---
 
