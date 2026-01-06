@@ -18,8 +18,9 @@ This repository documents the **business problem**, **solution approaches**, and
 6. [Data](#data)
 7. [Assets](#assets)
 8. [Contributors](#contributors)
-9. [Contribution Guidelines](#contribution-guidelines)
-10. [License](#license)
+9. [Special Thanks](#special-thanks)
+10. [Contribution Guidelines](#contribution-guidelines)
+11. [License](#license)
 
 ## Context
 
@@ -76,9 +77,12 @@ Details are documented in [ROI Analysis](03-roi-analysis/README.md)
 This solution architecture and documentation were developed collaboratively by:
 
 - **[Sriram Sivakumar](https://www.linkedin.com/in/sriram-sivakumar-25824831/)** — Solution Archeitecture & Design and documentation.
-- **[Vinai Sankunni](https://www.linkedin.com/in/vinai-sankunni-6354197/)** — Guidance on business case presentation, financial framing.
 - **Copilot (AI Assistant)** — Idea expansion, document writing and content structuring.
 
+## Special Thanks
+
+- **[Vinai Sankunni](https://www.linkedin.com/in/vinai-sankunni-6354197/)** — For guidance on business case presentation and financial approach.
+  
 ## Contribution Guidelines
 
 - Fork the repo and create a branch (`feature/<name>`).
