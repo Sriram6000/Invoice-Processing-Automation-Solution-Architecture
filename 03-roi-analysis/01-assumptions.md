@@ -50,5 +50,5 @@ Benefits are **not** instantaneous across 20 countries. Applying pro‑rata weig
 - **One‑time implementation (Year 1):** **$350,000** *(build, config, country pilot, change mgmt)*
 
  ---
- |Back to : [ROI Analysis](03-roi-analysis) | Next : [Baseline Manual](02-baseline-manual.md)|
+ |Back to : [ROI Analysis](README.md) | Next : [Baseline Manual](02-baseline-manual.md)|
 |-|-|
